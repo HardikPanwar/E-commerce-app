@@ -59,7 +59,9 @@ function Navbar({ children }) {
                         <span className="absolute -inset-1.5" />
                         <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                       </button>
-                      <span className="inline-flex items-center rounded-xl  mb-7 -ml-3 bg-red-50 px-3 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10 ">1</span>
+                      <span className="inline-flex items-center rounded-xl  mb-7 -ml-3 bg-red-50 px-3 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10 ">
+                        1
+                      </span>
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
                         <div>
@@ -134,7 +136,9 @@ function Navbar({ children }) {
                       <span className="absolute -inset-1.5" />
                       <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
-                    <span className="inline-flex items-center rounded-xl mb-7  -ml-3 bg-red-50 px-3 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10 ">1</span>
+                    <span className="inline-flex items-center rounded-xl mb-7  -ml-3 bg-red-50 px-3 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10 ">
+                      1
+                    </span>
                   </div>
                   <div className="mt-3 space-y-1 px-2">
                     {userNavigation.map((item) => (
