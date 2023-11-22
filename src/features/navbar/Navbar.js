@@ -2,6 +2,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import logo from '../../assets/Shopify.png'
 
 const user = {
   name: 'Tom Cook',
@@ -32,7 +33,7 @@ function Navbar({ children }) {
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <img className="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                      {/* <img className="h-8 w-8" src='https://banner2.cleanpng.com/20180810/tt/kisspng-aliexpress-online-shopping-mobile-app-android-images-in-my-camera-where-did-they-come-from-an-5b6d4cd5cd1be8.3275284515338897498401.jpg'alt="Your Company" /> */}
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
